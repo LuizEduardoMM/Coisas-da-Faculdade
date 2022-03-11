@@ -1,3 +1,4 @@
+//Desenvolvido por Eduardo Marrano. Github:https://github.com/LuizEduardoMM
 #include<iostream>
 #include<fstream>
 #include <string.h>
