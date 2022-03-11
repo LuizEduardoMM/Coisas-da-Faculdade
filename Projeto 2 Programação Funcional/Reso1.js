@@ -31,7 +31,6 @@ console.log(valorpresentejurossimples(1500,5,3))
 const taxaouperiodos= (periodo)=>(taxa)=>(valorpresente)=>(valorfuturo)=>(valorfuturo-valorpresente)/(valorpresente*periodo*(taxa/100))//mais um caso de curry, onde pode se anular ou a taxa ou o periodo fazendo a formula do proprio anulado
 const periodos=taxaouperiodos(1)
 console.log(periodos(5)(1000)(20000))
-//const taxa=taxaouperiodos()(100)
 
 const potencia = (base,expoente) => {
     if (base<0) return 1/potenciaaux(base,expoente*(-1))
