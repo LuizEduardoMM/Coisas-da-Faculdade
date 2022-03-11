@@ -1,3 +1,4 @@
+// Desenvolvido por Eduardo Marrano, github: https://github.com/LuizEduardoMM
 const calcularporcentagemmultilplicacao= (auxiliar)=>(numbase)=>(porcen)=> numbase*(auxiliar+porcen/100) // Versao currificada da função para calcular porcentagem, permitindo reuso
 const calcularporcentagemdeumnum=calcularporcentagemmultilplicacao(0)(0+document.getElementById("basecon"))(0+document.getElementById("porcon"))//Nessa função o auxiliar é predefinido para a formula e os outros dois valores puxamos do arquivo html
 const resultadocalc1=()=>{
