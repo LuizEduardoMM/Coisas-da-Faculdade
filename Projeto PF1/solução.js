@@ -1,3 +1,4 @@
+//Desenvolvido por Eduardo Marrano. Github:https://github.com/LuizEduardoMM
 const fs = require('fs')
 const path = require('path')
 
