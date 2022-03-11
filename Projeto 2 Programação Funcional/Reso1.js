@@ -17,17 +17,6 @@ const variacaoperenctuall=variarelapercenyual(-1)
 const relacaopercentuall=variarelapercenyual(0)
 console.log(variacaoperenctuall(87)(100))
 console.log(relacaopercentuall(10)(100))
-//const variacaopercentual=(numbase,porcen)=>{ // Função na qual nao coube na currificação e nao valeria a pena fazer pois será usado uma vez só
-                                             //  const resultado=((numbase/porcen)-1)*100
-    //  return resultado
-//}
-//console.log(variacaopercentual(87,100))
-//const relacaopercentual=(valoranalisador,valoranalisado)=>{
-
-//    const resultado=(valoranalisador/valoranalisado)*100
-//    return resultado
-//}
-//console.log(relacaopercentual(10,100))
 const valorfuturojurossimples=(valorpres,taxa,periodo)=>{
     const resultado= valorpres*(1+((taxa/100)*periodo))
     return resultado
